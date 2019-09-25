@@ -29,9 +29,17 @@
     "issues": "https://github.com/dreamfactorysoftware/df-sqlsrv/issues",
     "wiki":   "https://wiki.dreamfactory.com"
   },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "repositories": [
+    {
+      "type": "vcs",
+      "url":  "https://github.com/yaroslavmo/df-sqldb"
+    }
+  ],
   "require":     {
     "leaseweb/doctrine-pdo-dblib": "~1.1.0",
-    "dreamfactory/df-sqldb":       "~0.16.0"
+    "yaroslavmo/df-sqldb":       "~0.16.0"
   },
   "autoload":    {
     "psr-4": {
