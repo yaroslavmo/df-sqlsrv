@@ -7,7 +7,8 @@ update_configs:
     target_branch: "master"
     default_labels:
       - "dependencies"
-      - "dependabot"allowed_updates:
+      - "dependabot"
+    allowed_updates:
       - match:
           update_type: "all"
           dependency_name: "dreamfactory/df*"

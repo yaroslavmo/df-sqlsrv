@@ -35,10 +35,15 @@
     {
       "type": "vcs",
       "url":  "https://github.com/yaroslavmo/df-sqldb"
+    },
+    {
+      "type": "vcs",
+      "url":  "https://github.com/dreamfactorysoftware/df-limit"
     }
   ],
   "require":     {
     "leaseweb/doctrine-pdo-dblib": "~1.1.0",
+    "dreamfactory/df-limit":       "~0.7.0",
     "dreamfactory/df-sqldb":       "~0.16.0"
   },
   "autoload":    {
